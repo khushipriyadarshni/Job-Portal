@@ -60,7 +60,7 @@ const JobDescription = () => {
                 <div className="flex flex-wrap gap-4 mb-6">
                     <div className="flex items-center space-x-2">
                         <FaIdBadge className="text-blue-500" />
-                        <span className="text-gray-700">{singleJob?.postion} Positions</span>
+                        <span className="text-gray-700">{singleJob?.position} Positions</span>
                     </div>
                     <div className="flex items-center space-x-2">
                         <FaIdBadge className="text-blue-500" />
@@ -76,7 +76,7 @@ const JobDescription = () => {
                     <h1 className="font-semibold my-1">Role: <span className='pl-4 font-normal text-gray-800 capitalize'>{singleJob?.title}</span></h1>
                     <h1 className="font-semibold my-1">Location: <span className='pl-4 font-normal text-gray-800 capitalize'>{singleJob?.location}</span></h1>
                     <h1 className="font-semibold my-1">Description: <span className='pl-4 font-normal text-gray-800 capitalize'>{singleJob?.description}</span></h1>
-                    <h1 className="font-semibold my-1">Experience: <span className='pl-4 font-normal text-gray-800'>{singleJob?.experience} yrs</span></h1>
+                    <h1 className="font-semibold my-1">Experience: <span className='pl-4 font-normal text-gray-800'>{singleJob?.experienceLevel} yrs</span></h1>
                     <h1 className="font-semibold my-1">salary: <span className='pl-4 font-normal text-gray-800'>{singleJob?.salary} LPA</span></h1>
                     <h1 className="font-semibold my-1">Total Application: <span className='pl-4 font-normal text-gray-800'>{singleJob?.applications?.length}</span></h1>
                     <h1 className="font-semibold my-1">Posted date: <span className='pl-4 font-normal text-gray-800'>{singleJob?.createdAt.split("T")[0]}</span></h1>

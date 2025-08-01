@@ -14,7 +14,7 @@ const LatestJobCards = ({job}) => {
                 <h1 className='font-semibold text-lg capitalize'>{job?.title}</h1>
                 <p className='capitalize'>{job?.description}</p>
             </div>
-            <div className=' mt-2 flex space-x-2'>
+            <div className=' mt-2 flex space-x-8'>
                 <div className='flex items-center space-x-1'>
                     <Badge className='text-blue-500' />
                     <span className='text-blue-500 font-bold'>{job?.position} Position</span>
